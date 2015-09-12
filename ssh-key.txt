@@ -1,0 +1,5 @@
+create a ssh key:
+
+type in command line:
+$ ssh-keygen -t -C "emailname@email.com"
+
