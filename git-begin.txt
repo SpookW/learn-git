@@ -26,3 +26,23 @@ you will find the console.log show changes not staged in commit so we should ent
 ------------------------------------- branch area  ---------------------
 -------------------------------------  分支区域   ----------------------
 when you commit all the files then those files added into branch area.
+$git commit -m "description"
+
+$git status
+
+the console show that: nothing to commit and working direction clean
+
+
+
+
+*************************************************************************
+*************************************************************************
+now you understand 3 steps of git  working direction stage direction branch area
+
+p.s you must know git monitor the changes not the files!!!!
+if you change the file firsttime and $git add filename 
+then you change the file secondtime not $git add filename
+then you $git commit the file
+when you $cat filename you will find a problem the second change didn't work?
+yes!   only the change add to stage area,the change will be controlled by git,
+so git don't monitor the file.  
