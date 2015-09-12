@@ -20,4 +20,4 @@ in normal pattern
 :wq    ||save and exit
 :q!    ||force exit and ignore every changes
 :e!    ||give up every changes and open the origin file.
- 
+6.anything 
