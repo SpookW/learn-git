@@ -12,8 +12,12 @@ type in command line: $  vim filename1 filename2 ...
 enter <esc> or <ctrl+[>
 ----2---insert pattern
 enter <i>
+----3---visual pattern
+enter <v> or <ctrl+v>
+
 5.exit vim
 in normal pattern 
 :wq    ||save and exit
 :q!    ||force exit and ignore every changes
-:e!    ||give up every changes and open the origin file 
+:e!    ||give up every changes and open the origin file.
+ 
