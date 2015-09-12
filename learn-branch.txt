@@ -11,7 +11,7 @@ $git checkout -b branchname
 $git checkout master
 6.merge the branch to master
 $git merge branchname
-7.remove the branch112313
+7.remove the branch
 $git branch -d branchname
 8.look the picture about branch&merge
 $git log -- graph
