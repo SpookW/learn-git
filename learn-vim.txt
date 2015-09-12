@@ -14,10 +14,17 @@ enter <esc> or <ctrl+[>
 enter <i>
 ----3---visual pattern
 enter <v> or <ctrl+v>
-
 5.exit vim
 in normal pattern 
 :wq    ||save and exit
 :q!    ||force exit and ignore every changes
 :e!    ||give up every changes and open the origin file.
-6.anything 
+6.move orders
+in normal pattern 
+$      ||move to the end of this line
+0      ||nunmber0  move to the start of this line
+G or shift+g  || move to the begin of last line of this page
+7.undo order
+in normal pattern
+u      ||undo last order
+ 

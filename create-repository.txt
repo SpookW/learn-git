@@ -1,0 +1,15 @@
+create a git repository
+----------------------------------------
+
+
+
+--------------- first  -----------------
+create the repository folder
+
+$mkdir learn-git
+$cd learn-git 
+$pwd
+-------------- second  ----------------
+make the folder to git repository
+$git init
+

@@ -1,0 +1,28 @@
+The basic syntax of git
+
+------------------------working direction ---------------------
+------------------------      工作区      ---------------------
+after you init a git repository,every file you create in the folder is in working area
+$vim readme.txt
+$vim test.txt
+$index.html
+$base.cscc
+$angular.js
+
+so now your working area have 5 files
+
+------------------------stage direction or index direction---------------------
+------------------------      暂存区                      ---------------------
+when you change the files in your working dirction 
+$git status
+
+console will show those files are un tracked,it means those files are not in stage direction
+you should add them to stage direciton
+$git add readme.txt test.txt index.html base.scss angular.js
+
+so now your stage direction have 5 files
+then when you  $git status
+you will find the console.log show changes not staged in commit so we should enter to branch
+------------------------------------- branch area  ---------------------
+-------------------------------------  分支区域   ----------------------
+when you commit all the files then those files added into branch area.
