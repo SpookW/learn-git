@@ -1,0 +1,60 @@
+****************************************************************
+-----------------------git syntax : undo orders----------------
+
+*******************************undo changes in working direction********************************
+
+$git checkout --  filename
+
+----------------first section:----------------------------
+if the filename is new file and  current branch doesn't include it
+and you don't add it to stage direction,when you use $git checkout
+the console will show:
+"pathspec 'filename' didn't match any files know to git!"
+
+
+---------------second section:---------------------------
+if the file was in last branch,say,it's old file. and you don't add
+it to stage direction,when you use $git checkout -- filename
+the file will back to last branch time.
+
+--------------third section: ---------------------------
+if the file was in last branch and you add it to stage and change 
+its content,when you use $git checkout --filename
+the file will back to last add stage time
+返回到上一次添加暂存区后
+
+says:
+this order let file backto last commit or last add time.
+
+*******************************undo changes in stage direction**********************************
+
+when you add the file to stage and change but not commit,
+you want to back to working direction ,undo all changes in stage
+direction.you should use:
+$git reset HEAD file       ||可以把暂存区的修改撤销掉，返回到工作区
+
+******************************undo changes in branch *****************************************
+
+use $git log   ||show the commit history lists
+
+
+------------------first section ------------------------
+if you want to back to last branch,you can use 
+
+$git reset --hard HEAD^
+
+
+
+-----------------second section ----------------------
+record the every  commit ID in git log !!!
+
+if you want to back to specific commit use commit id
+
+$git reset --hard commitId
+P.S Once you back to the specific branch,then you $git log
+you only can find the commit id before your specific branch time
+一旦回到指定的版本号，你的时间线也将回到当时，指定版本号之后创建的版本，你将不再看到，但是如果你有他们的commit id，你还是回到对应的版本，所以commit id
+很重要。
+
+ 
+   
