@@ -1,0 +1,12 @@
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+how to remote the repository from github to local
+
+****************************************************************************************************************************************
+$git remote add origin git-repository-name(e.g:git@github.com:michaelliao/learngit.git)
+
+first time to push master to remote:
+$git push -u origin master
+then push master to remote:
+$git push origin master
+

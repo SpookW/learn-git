@@ -1,0 +1,25 @@
+
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+
+********************************************* how to  delete file in git    ************************************************************
+
+if you use 
+$rm filename
+
+then $git status
+
+---------------console----------------
+the console will show deleted filename and working direction different from branch  工作区和版本库不一致
+
+----------first section:
+
+if you just want to delete the file ,never use it in your project
+$git rm filename 
+$git commit -m "bla---la---"
+||this tell git delete the file from repository
+
+---------second section:
+wrong order you want to recover this file
+$git checkout -- filename
+
